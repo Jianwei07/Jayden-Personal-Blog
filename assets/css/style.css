@@ -578,14 +578,55 @@ p {
 
 #about .about-descr .p-heading {
   font-family: "Playfair Display", serif;
-  font-size: 28px;
+  font-size: 18px;
   text-align: left;
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
+  max-width: 85%;
   margin-bottom: 0;
   text-align: left;
+  padding-bottom: 60px;
+  line-height:20px;
+}
+
+/*--------------------------------------------------------------
+# Devfolio About
+--------------------------------------------------------------*/
+.about-mf .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about-mf .about-img {
+  margin-bottom: 2rem;
+}
+
+.about-mf .about-img img {
+  margin-left: 10px;
+}
+
+@media (min-width: 767px) {
+  .about-mf .box-pl2 {
+    margin-top: 3rem;
+    padding-left: 0rem;
+  }
+}
+
+.skill-mf span {
+  color: #4e4e4e;
+}
+
+.skill-mf .progress {
+  background-color: #f7f7f7;
+  margin: 0.5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: 0.7rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: 0.7rem;
+  background-color: #b8a07e;;
 }
 
 /*--------------------------------------------------------------
@@ -1554,3 +1595,5 @@ blockquote {
     margin-right: 0;
   }
 }
+
+
